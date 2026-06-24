@@ -1,0 +1,158 @@
+.about-page {
+
+  min-height: 100vh;
+  padding: 120px 50px 80px;
+
+  background: linear-gradient(
+    135deg,
+    #09090b,
+    #172554
+  );
+
+  color:white;
+  text-align:center;
+
+}
+
+
+.about-page h1 {
+
+  font-size:48px;
+  color:#ff6a00;
+  margin-bottom:30px;
+
+  text-shadow:0 0 15px #ff4500;
+
+}
+
+
+.about-content > p {
+
+  max-width:900px;
+  margin:20px auto;
+
+  font-size:19px;
+  line-height:1.8;
+
+  color:#e5e7eb;
+
+}
+
+
+/* Cards */
+
+.about-cards {
+
+  display:flex;
+  justify-content:center;
+  gap:30px;
+
+  margin-top:50px;
+  flex-wrap:wrap;
+
+}
+
+
+.about-card {
+
+  width:280px;
+  padding:30px;
+
+  background:#111827;
+
+  border-radius:20px;
+
+  border:1px solid #38bdf8;
+
+  transition:.4s;
+
+}
+
+
+.about-card:hover {
+
+  transform:translateY(-12px);
+
+  border-color:#ff6a00;
+
+  box-shadow:
+  0 0 20px #ff4500;
+
+}
+
+
+.about-card h3 {
+
+  color:#38bdf8;
+  font-size:24px;
+
+}
+
+
+.about-card p {
+
+  color:#d1d5db;
+  line-height:1.6;
+
+}
+
+
+/* Statistics */
+
+.stats {
+
+  display:flex;
+
+  justify-content:center;
+
+  gap:60px;
+
+  margin-top:60px;
+
+}
+
+
+.stats h2 {
+
+  color:#ff6a00;
+
+  font-size:40px;
+
+}
+
+
+.stats p {
+
+  color:white;
+
+  font-size:18px;
+
+}
+
+
+/* Mobile */
+
+@media(max-width:768px){
+
+.about-page{
+padding:100px 20px;
+}
+
+
+.about-page h1{
+font-size:32px;
+}
+
+
+.about-cards{
+flex-direction:column;
+align-items:center;
+}
+
+
+.stats{
+flex-direction:column;
+gap:20px;
+}
+
+}

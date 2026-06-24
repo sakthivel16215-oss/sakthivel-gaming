@@ -1,0 +1,89 @@
+.banner {
+
+height:500px;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+
+background:
+linear-gradient(
+rgba(0,0,0,.6),
+rgba(0,0,0,.8)
+),
+url("https://wallpapercave.com/wp/wp9182149.jpg");
+
+background-size:cover;
+color:white;
+
+}
+
+.banner h1{
+font-size:55px;
+color:#ff4500;
+}
+
+
+.banner p{
+font-size:22px;
+}
+.start-btn {
+  display: inline-block;
+  margin-top: 20px;
+
+  padding: 15px 40px;
+
+  background: #ff4500;
+  color: white;
+
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+
+  border-radius: 10px;
+
+  transition: 0.3s;
+}
+
+.start-btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 15px 40px;
+
+  background: #ff4500;
+  color: white;
+
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.start-btn:hover {
+  background: #ff6a00;
+  transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+
+  .banner {
+    height: 400px;
+    padding: 20px;
+  }
+
+  .banner h1 {
+    font-size: 32px;
+  }
+
+  .banner p {
+    font-size: 16px;
+  }
+
+  .start-btn {
+    padding: 12px 30px;
+    font-size: 16px;
+  }
+
+}

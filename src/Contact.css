@@ -1,0 +1,287 @@
+.contact-page {
+
+  min-height:100vh;
+
+  display:flex;
+  justify-content:center;
+  align-items:center;
+
+  padding-top:70px;
+
+  background:linear-gradient(
+    135deg,
+    #09090b,
+    #172554
+  );
+
+}
+
+
+.contact-box {
+
+  width:450px;
+
+  padding:40px;
+
+  background:#111827;
+
+  color:white;
+
+  border-radius:20px;
+
+  text-align:center;
+
+  border:2px solid #ff4500;
+
+  box-shadow:0 0 25px rgba(255,69,0,0.5);
+
+}
+
+
+.contact-box h1 {
+
+  color:#ff6a00;
+
+  font-size:38px;
+
+  margin-bottom:20px;
+
+}
+
+
+.contact-box p {
+
+  color:#cbd5e1;
+
+}
+
+
+/* Input */
+
+.contact-box input,
+.contact-box textarea {
+
+  width:100%;
+
+  padding:15px;
+
+  margin:12px 0;
+
+  box-sizing:border-box;
+
+  background:#1e293b;
+
+  color:white;
+
+  border:1px solid #334155;
+
+  border-radius:10px;
+
+  outline:none;
+
+  font-size:16px;
+
+}
+
+
+.contact-box textarea {
+
+  height:120px;
+
+  resize:none;
+
+}
+
+
+.contact-box input:focus,
+.contact-box textarea:focus {
+
+  border-color:#38bdf8;
+
+  box-shadow:0 0 10px #38bdf8;
+
+}
+
+
+/* Button */
+
+.contact-box button {
+
+  width:100%;
+
+  padding:15px;
+
+  margin-top:15px;
+
+  background:#ff4500;
+
+  color:white;
+
+  border:none;
+
+  border-radius:10px;
+
+  font-size:18px;
+
+  font-weight:bold;
+
+  cursor:pointer;
+
+}
+
+
+.contact-box button:hover {
+
+  background:#ff6a00;
+
+}
+
+
+/* Info */
+
+.contact-info {
+
+  margin-top:30px;
+
+}
+
+
+/* Mobile */
+
+@media(max-width:768px){
+
+.contact-box{
+
+ width:85%;
+
+ padding:30px;
+
+}
+
+
+.contact-box h1{
+
+ font-size:30px;
+
+}
+
+}
+/* Tablet Responsive */
+
+@media (max-width: 992px) {
+
+  .contact-box {
+
+    width: 60%;
+
+    padding: 35px;
+
+  }
+
+
+  .contact-box h1 {
+
+    font-size: 34px;
+
+  }
+
+}
+
+
+/* Mobile Responsive */
+
+@media (max-width: 768px) {
+
+  .contact-page {
+
+    padding: 100px 20px 50px;
+
+  }
+
+
+  .contact-box {
+
+    width: 90%;
+
+    padding: 30px 20px;
+
+  }
+
+
+  .contact-box h1 {
+
+    font-size: 30px;
+
+  }
+
+
+  .contact-box p {
+
+    font-size: 15px;
+
+  }
+
+
+  .contact-box input,
+  .contact-box textarea {
+
+    font-size: 14px;
+
+    padding: 12px;
+
+  }
+
+
+  .contact-box textarea {
+
+    height: 100px;
+
+  }
+
+
+  .contact-box button {
+
+    font-size: 16px;
+
+    padding: 12px;
+
+  }
+
+
+  .contact-info p {
+
+    font-size: 14px;
+
+  }
+
+}
+
+
+/* Small Mobile */
+
+@media (max-width: 480px) {
+
+  .contact-box {
+
+    width: 95%;
+
+    border-radius: 15px;
+
+  }
+
+
+  .contact-box h1 {
+
+    font-size: 26px;
+
+  }
+
+
+  .contact-box input,
+  .contact-box textarea {
+
+    width: 100%;
+
+  }
+
+}
