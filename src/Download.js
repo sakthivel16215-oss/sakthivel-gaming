@@ -33,12 +33,14 @@ function Download() {
         </a>
 
 
-        <a
-          href="#"
-          className="download-btn"
-        >
-          💻 Windows Download
-        </a>
+       <a
+  href="https://www.bluestacks.com/apps/action/free-fire-battlegrounds-on-pc.html"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="download-btn"
+>
+  💻 Windows
+</a>
 
       </div>
 
